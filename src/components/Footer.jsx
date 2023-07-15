@@ -9,11 +9,11 @@ import {
 
 const Footer = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300' id='footer'>
         <div>
-            <h1 className='w-full text-3xl font-bold text-[#00df9a]'>REACT.</h1>
-            <p className='py-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, veniam voluptatibus iure voluptas tempora eos!</p>
-            <div className='flex justify-between md:w-[75%] my-6'>
+            <h1 className='w-full text-3xl font-bold text-[#00df9a]'>DATA INSIGHT</h1>
+            <p className='py-4'>Monitor your data analytics to increase revenue for BTB, BTC & SASS platforms.</p>
+            <div className='flex justify-between md:w-[75%] my-6 cursor-pointer'>
                 <FaFacebookSquare size={30} />
                 <FaInstagram size={30} />
                 <FaTwitterSquare size={30} />
